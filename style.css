@@ -1,0 +1,101 @@
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #ee6e73;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  
+}
+.parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 20%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+footer.page-footer img {
+  max-width: 40px;
+  max-height: 40px;
+  display: inline-block;
+}
+footer.page-footer p {
+  color: white;
+}
+
+
+
+ .parallax img 
+ {
+ 	 background-repeat: no-repeat;
+ 	 background-size: auto;
+ }
+ .parallax-container
+ {
+ 	color: black;
+ }
+ @media only screen and (max-width : 600px) {
+  .parallax-container
+ {
+ 	color: black;
+ }
+}
+ nav a.button-collapse
+ {
+ 	color:black;
+ }
+ .purple.lighten-1 {
+  background-color: #CC0066 !important;
+}
+.teal-text.text-lighten-2 {
+  color: #CC0066 !important;
+}
+.share-buttons{
+	list-style: none;
+}
+
+.share-buttons li{
+	display: inline;
+}
+nav
+{
+	overflow: visible;
+}
+nav li a {
+    transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+

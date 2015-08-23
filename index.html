@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Gotham City</title>
+
+  <!-- CSS  -->
+   <link href="materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+   <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+      
+
+</head>
+<body>
+
+ <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12" style="color: white;">Swank Development Group.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="http://s8.postimg.org/47kiyg7x1/2014_09_25_03_54_32_1.jpg" alt="img"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            </h2>
+            <h5 class="center">Who Am I?</h5>
+            <p class="light"> Whats Up? Im Elijah a Jr. Web developer located in Charlotte, NC who focuses on modern, clean, and creative web design and applications. I'm a Project starter and an awesome teammate. I enjoy listening to others creative ideas as well as implementing my own ideas. Team Work is big to me. I enjoy knowing what ideas people can come up with in order to create or make an existing project better. Being an NYC native Charlotte has been a blank canvas so to speak. Projects that can help develop cities and neighborhoods entice me the most. I would love to have a hand in building up the City. please dont hesitate to check out some of my work below. Feedback is always welcomed and appreciated. <strong>One LOVE!</strong></p>
+          </div> 
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="http://s8.postimg.org/snownp4id/download_20150403_213823.jpg" alt="img"></div>
+  </div>
+
+
+<div class="container section scrollspy " id="contactus">
+  <div class="section ">
+    <br>
+  <br>
+  <h5 class="center">My Best Foot Forward</h5>
+  
+      <div class="col s12 m4">
+                    <p>
+                    I'll always take on projects without hesitation. I am confident in my ability to bring your dream to life. We can work together to give it life or you can put it all on me (My back is
+                    <strong>strong</strong> enough!). Bottom line I'll give you a final product that you will love!
+                    </p>
+                   <ul class="share-buttons">
+
+                </div>
+
+  <div class="container section scrollspy" id="projects">
+    <div class="section">
+    	<br>
+    	<br>
+      <h4 class="center">Projects</h4>
+      <br>
+      <div class="row">
+        <!--row-->
+       <div class="row">
+      	<div class="col s6">
+      	<img class="materialboxed responsive-img" data-caption="Description about the work or project" src="http://s17.postimg.org/4yirkdi33/IMG_20141004_144003.jpg">
+      	</div> 
+      	<div class="col s6">
+      	<img class="materialboxed responsive-img" data-caption="Description about the work or project" src="http://s17.postimg.org/gmctex77z/download_20150403_213823.jpg">
+      	</div> 
+      </div><!--row-->
+      
+      <div class="center">
+      	<a class="waves-effect waves-light btn blue darken-3">View more</a>
+      </div>
+
+    </div>
+  </div>
+     
+     
+</div>
+  </div>
+</div>
+  <footer class="page-footer blue darken-3">
+   
+    <div class="footer-copyright">
+      <div class="container">
+                    <a href="mailto:gothamtyler@icloud.com"><img src="https://lh4.ggpht.com/7thmhSNgU_SlkH6wcSSX9zrS0I7RwLEWnW9KLkC-W-Lwshd8znwf5ssT3DceLo3er14=w300"><span></span></a>
+                    <a href="https://github.com/Etylerb0" target="_blank"><img src="http://orig07.deviantart.net/181c/f/2015/006/d/0/github_folder_icon_by_johnonym-d8ctc5w.png "></i><span></span></a>
+                    <a href="https://twitter.com/gothamtyler" target="_blank"><img src="http://orig13.deviantart.net/d87a/f/2015/011/6/f/twitter_icon_material_design_by_pattipartypony-d8dh737.png"><span></span></a>
+                    <a href="http://instagram.com/gotham_swank_og" target="_blank"><img src="http://s7.postimg.org/4n376y93v/instagram_icon_material_design_by_pattipartypony.png"><span></span></a>
+                   
+       <p>© Swank Media Group </p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="materialize.js"></script>
+  <script src="init.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+      $('.button-collapse').sideNav();
+  });
+  </script>
+  <script>
+  	    $('.head-link').click(function(e) {
+        e.preventDefault();
+        
+        var goto = $(this).attr('href');
+
+        $('html, body').animate({
+            scrollTop: $(goto).offset().top
+        }, 800);
+    });
+
+  </script>
+
+  </body>
+</html>
