@@ -1,15 +1,13 @@
-nav ul a,
-nav .brand-logo {
-  color: #444;
-}
+ html {
+    font-family: 'Libre Baskerville', 'Roboto', serif;
+  }
 
 p {
   line-height: 2rem;
 }
-
-.button-collapse {
-  color: #ee6e73;
-}
+ .center a {
+  color: yellow;
+ }
 
 .parallax-container {
   min-height: 380px;
@@ -20,6 +18,15 @@ p {
 .parallax-container .section {
     width: 100%;
   }
+
+.parallax-container .section .row h5 {
+margin-right: 100%;
+color:  #ffeb3b;
+font-weight: 700;
+font-family: 'Libre Baskerville', 'Roboto', serif;
+font-size: 35px;
+
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -37,24 +44,34 @@ p {
   }
 }
 
-
-.icon-block {
-  padding: 0 15px;
+footer .container ul li   {
+display: inline-block; 
 }
 
-footer.page-footer {
-  margin: 0;
-}
-footer.page-footer img {
+footer .container ul li {
   max-width: 40px;
   max-height: 40px;
+  color: #e74c3c;
+  padding-left: 10px;
+  text-align: center;
+  margin: 0 auto;
   display: inline-block;
 }
-footer.page-footer p {
-  color: white;
+
+footer .container ul li i {
+  color: #ffeb3b;
 }
 
+footer .container ul {
+  text-align: center;
+  margin-bottom: 0;
+}
 
+.footer-copyright .container {
+  text-align: center;
+  font-family: 'Libre Baskerville', 'Roboto', serif;
+  color: #ffeb3b;
+}
 
  .parallax img 
  {
@@ -71,31 +88,7 @@ footer.page-footer p {
  	color: black;
  }
 }
- nav a.button-collapse
- {
- 	color:black;
- }
- .purple.lighten-1 {
-  background-color: #CC0066 !important;
-}
-.teal-text.text-lighten-2 {
-  color: #CC0066 !important;
-}
-.share-buttons{
-	list-style: none;
-}
+ 
 
-.share-buttons li{
-	display: inline;
-}
-nav
-{
-	overflow: visible;
-}
-nav li a {
-    transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
 
 
